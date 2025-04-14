@@ -5,3 +5,4 @@
 .tern-project
 *.class
 .metadata
+.apt_generated
