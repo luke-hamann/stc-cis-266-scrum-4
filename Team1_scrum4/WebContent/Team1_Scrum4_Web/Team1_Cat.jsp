@@ -18,9 +18,7 @@
 	
 	Team1_Cat cat = api.createCat(name, color, weight);
 	
-	out.print("Name: " + cat.getName() + "<br />" +
-		"Color: " + cat.getColor() + "<br />" +
-		"Weight (lbs): " + cat.getWeight());
+	out.print(cat);
 %>
 <p><a href="Team1_Cat.html">Back</a></p>
 </body>

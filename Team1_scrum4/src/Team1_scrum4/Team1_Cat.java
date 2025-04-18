@@ -46,4 +46,8 @@ public class Team1_Cat {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
+	
+	public String toString() {
+		return String.format("Name: %s, Color: %s, Weight (lbs): %.2f", name, color, weight);
+	}
 }
