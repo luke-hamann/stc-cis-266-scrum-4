@@ -13,7 +13,7 @@
 
 	String name = request.getParameter("name");
 	String color = request.getParameter("color");
-	String weightStr = request.getParameter("weiht");
+	String weightStr = request.getParameter("weight");
 	double weight = Double.parseDouble(weightStr);
 	
 	Team1_Cat cat = api.createCat(name, color, weight);
